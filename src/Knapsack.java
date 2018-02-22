@@ -3,45 +3,63 @@ import java.util.*;
 
 public class Knapsack {
 	
-	
+	static int[] testArr = {2, 3, 3, 4 , 1};
 	private static final String ERROR = "Error: File not found";
 	private static final String PROMPT = "Please provide a file name";
 
+	/**
+	 * 
+	 * @param w
+	 * @param n
+	 * @param limit
+	 * @return
+	 */
 	public static int knapsackSum(int[] w, int n, int limit) {
-		if (w[n] == 0)
+
+		if (n == 0)
 			return 0;
-		if (w[n] > limit)
-			return 0;
-		int withLast = knapsackSum(w, n, limit - w[n]);
-		int withoutLast = knapsackSum(w, n-1, limit);
-		if (withLast > withoutLast)
-			return withLast;
+		else if (w[n-1] > limit) {
+			return knapsackSum(w, n - 1 , limit);
+		}
 		else
-			return withoutLast;
+			return w[n] + knapsackSum(w, n-1, limit - w[n]);
 		
 		
 		
 	}
 	
-	
+	/**
+	 * 
+	 * @param w
+	 * @param n
+	 * @param limit
+	 * @param list
+	 * @return
+	 */ 
 	public static int knapsackSum(int[] w, int n, int limit, List<Integer> list) {
-		if (w[n] == 0)
+		
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		ArrayList<Integer> list2 = new ArrayList<Integer>();
+		
+		if (n == 0)
 			return 0;
-		if (w[n] > limit)
-			return 0;
-		list.add(w[n]);
-		int withLast = knapsackSum(w, n, limit - w[n]);
-		int withoutLast = knapsackSum(w, n-1, limit);
-		if (withLast > withoutLast)
-			return withLast;
+		else if (w[n-1] > limit) {
+			return knapsackSum(w, n - 1 , limit);
+		}
 		else
-			return withoutLast;
+			return w[n] + knapsackSum(w, n-1, limit - w[n]);
 		
 		
 		
-	}
+	} 
 	
-	
+	/**
+	 * 
+	 * 
+	 * @param filename
+	 * @return
+	 * @throws IOException
+	 */
 	public static ArrayList<String> readFile(String filename) throws IOException {
 		
 		ArrayList<String> fileNames = new ArrayList<String>();
@@ -65,6 +83,12 @@ public class Knapsack {
 		
 	}
 	
+	
+	/**
+	 * 
+	 * @param args
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		
 		ArrayList<String> fileNames;
@@ -77,7 +101,7 @@ public class Knapsack {
 		}
 		for (String f : fileNames)
 			System.out.println(f);
-		
+		System.out.println(knapsackSum(testArr, testArr.length - 1, 11));
 		
 	}
 	
