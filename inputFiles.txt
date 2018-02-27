@@ -1,3 +1,14 @@
-bananaTest.txt
-potatoTest.txt
+pearTest.txt
 watermelonTest.txt
+orangeTest.txt
+mangoTest.txt
+peachTest.txt
+bananaTest.txt
+appleTest.txt
+pineappleTest.txt
+lemonTest.txt
+lime.txt
+raspberry.txt
+blueberry.txt
+shouldntExist.txt
+empty.txt

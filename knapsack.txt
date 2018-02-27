@@ -1,0 +1,170 @@
+pearTest.txt 21	2,17,5,3
+
+Optimal Capacity:20
+
+Weights Used:
+0 2 Pound pears
+1 3 Pound pear
+0 5 Pound pears
+1 17 Pound pear
+
+
+watermelonTest.txt 132	2,17,5,3
+
+Optimal Capacity:27
+
+Weights Used:
+1 2 Pound watermelon
+1 3 Pound watermelon
+1 5 Pound watermelon
+1 17 Pound watermelon
+
+
+orangeTest.txt 11	2,3,3,4
+
+Optimal Capacity:10
+
+Weights Used:
+0 2 Pound oranges
+2 3 Pound oranges
+1 4 Pound orange
+
+
+mangoTest.txt 677	34,3,5,123,34,34,34,6,54,3,5,63,4,6,7,5,43,54,3,45,4,64,6,5,45
+
+Optimal Capacity:677
+
+Weights Used:
+2 3 Pound mangos
+1 4 Pound mango
+3 5 Pound mangos
+3 6 Pound mangos
+1 7 Pound mango
+4 34 Pound mangos
+1 43 Pound mango
+2 45 Pound mangos
+2 54 Pound mangos
+1 63 Pound mango
+1 64 Pound mango
+1 123 Pound mango
+
+
+peachTest.txt 50	32,5,7,12,4
+
+Optimal Capacity:49
+
+Weights Used:
+0 4 Pound peachs
+1 5 Pound peach
+0 7 Pound peachs
+1 12 Pound peach
+1 32 Pound peach
+
+
+bananaTest.txt 40	8,7,9,17,4,9,5
+
+Optimal Capacity:40
+
+Weights Used:
+0 4 Pound bananas
+1 5 Pound banana
+0 7 Pound bananas
+0 8 Pound bananas
+2 9 Pound bananas
+1 17 Pound banana
+
+
+appleTest.txt 1096	43,5,34,5,4,5,43,5,43,6,5,6,45,7,56,76,34,6,567,2,23,45,34,5,435,6
+
+Optimal Capacity:1096
+
+Weights Used:
+0 2 Pound apples
+1 4 Pound apple
+6 5 Pound apples
+2 6 Pound apples
+1 7 Pound apple
+1 23 Pound apple
+3 34 Pound apples
+3 43 Pound apples
+2 45 Pound apples
+1 56 Pound apple
+1 76 Pound apple
+0 435 Pound apples
+1 567 Pound apple
+
+
+pineappleTest.txt 45	23,14,3,9,9,9
+
+Optimal Capacity:44
+
+Weights Used:
+1 3 Pound pineapple
+2 9 Pound pineapples
+0 14 Pound pineapples
+1 23 Pound pineapple
+
+
+lemonTest.txt 145	54,24,3,9,7,13,7,27,43
+
+Optimal Capacity:144
+
+Weights Used:
+1 3 Pound lemon
+2 7 Pound lemons
+1 9 Pound lemon
+1 13 Pound lemon
+1 24 Pound lemon
+1 27 Pound lemon
+0 43 Pound lemons
+1 54 Pound lemon
+
+
+lime.txt 12	23,4,76,5,9,1
+
+Optimal Capacity:10
+
+Weights Used:
+1 1 Pound lime
+1 4 Pound lime
+1 5 Pound lime
+0 9 Pound limes
+0 23 Pound limes
+0 76 Pound limes
+
+
+raspberry.txt 2345	543,654,876,334,32,22,8,67,565,44,688,5544,22
+
+Optimal Capacity:2340
+
+Weights Used:
+0 8 Pound raspberrys
+1 22 Pound raspberry
+0 32 Pound raspberrys
+0 44 Pound raspberrys
+0 67 Pound raspberrys
+1 334 Pound raspberry
+1 543 Pound raspberry
+1 565 Pound raspberry
+0 654 Pound raspberrys
+0 688 Pound raspberrys
+1 876 Pound raspberry
+0 5544 Pound raspberrys
+
+
+blueberry.txt 1	2,3,4
+
+Optimal Capacity:0
+
+Weights Used:
+0 2 Pound blueberrys
+0 3 Pound blueberrys
+0 4 Pound blueberrys
+
+
+shouldntExist.txt
+Error: File not found
+
+empty.txt
+Error: File not found
+
